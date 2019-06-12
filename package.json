@@ -1,11 +1,14 @@
 {
   "name": "ru",
-  "version": "0.0.0",
-  "description": "the `npm` of web publishing",
+  "version": "0.0.1",
+  "description": "A custom platform for publish to the web",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brock Whitten <brock@chloi.io>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "surge": "^0.21.0"
+  }
 }
