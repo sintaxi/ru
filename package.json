@@ -1,14 +1,15 @@
 {
   "name": "ru",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A custom platform for publish to the web",
-  "main": "index.js",
+  "main": "./index.js",
+  "bin": "./ru",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brock Whitten <brock@chloi.io>",
   "license": "ISC",
   "dependencies": {
-    "surge": "^0.21.0"
+    "surge": "^0.21.3"
   }
 }

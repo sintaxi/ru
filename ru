@@ -5,7 +5,6 @@ var pkg   = require("./package.json")
 var surge = require("surge")({
   name: "phluto",
   platform: "phlu.to",
-  endpoint: "surge.phlu.to",
   default: "publish"
 })
 
